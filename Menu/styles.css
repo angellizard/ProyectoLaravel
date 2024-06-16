@@ -1,0 +1,542 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.menu {
+    background-color: #333;
+    color: rgb(208, 223, 44);
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    height: 90px; /* Adjust the height as needed */
+   width: 90px;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.menu li {
+    margin: 20px 10px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: rgb(37, 27, 27);
+}
+
+.background-image {
+    width: 30vw;
+    height: 30vh;
+    background-image: url('your-background-image.jpg');
+    background-size: cover;
+    background-position: center;
+    opacity: 0.200; /* Adjust the opacity as needed */
+}
+
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    
+}
+.image {
+    margin: 20px;
+   
+       
+}
+
+.image img {
+    width: 70%; /* Adjust the width as needed */
+}
+body {
+    background-color: rgb(39, 21, 21);
+    color: black;
+}
+
+.menu {
+    background-color: rgb(22, 22, 18);
+    padding: 100px;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.menu li {
+    margin-right: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+    transition: color 0.3s;
+}
+
+.menu a:hover {
+    color: rgb(175, 214, 22);
+}
+
+.menu {
+    background-color: rgb(101, 5, 43);
+    padding: 10px;
+    justify-content: center; /* Centra horizontalmente los elementos */
+    align-items: center;
+    
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 10;
+    padding: 10;
+    display: flex;
+}
+
+.menu li {
+    margin-right: 10px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+    transition: color 0.14s;
+}
+
+.menu a:hover {
+    color: rgb(232, 246, 69);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+   margin-top: 500px;
+   
+}
+
+footer {
+    background-color: #9bc513;
+    color: rgb(46, 28, 28);
+    padding: 70px 80;
+  
+}
+
+.footer-content {
+ 
+
+    max-width: 100px;
+    margin: 0 auto;
+}
+
+.left-content {
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.social-media {
+    display: flex;
+}
+
+.social-icon {
+    color: rgb(18, 13, 13);
+    text-decoration: none;
+    margin: 110 110px;
+
+
+}
+
+.h5{
+
+   text-align: center;
+    
+}
+
+.image-container {
+
+    display: flex;
+
+  }
+  
+  img {
+    width: 400px;
+    height: 200px;
+    margin: 30px;
+  }
+  
+  img:not(.exclude) {
+    animation: moveImage 1s infinite alternate;
+  }
+  
+  @keyframes moveImage {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(100px);
+    }
+  }
+
+  .contact-info {
+    text-align: center;
+    margin-top: 40px;
+    height: 20vh;
+    margin: 0;
+    
+  }
+  
+  #map {
+    height: 700px;
+    margin: 60px auto;
+    width: 90%;
+  }
+
+
+  
+body {
+    font-family: Arial, sans-serif;
+    margin: 40;
+    padding: 50;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    margin: 0;
+}
+
+header {
+    background-color: #5f5f17;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+.menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.menu li {
+    margin: 0 15px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: rgb(164, 194, 30);
+    font-size: 18px;
+    padding: 50px 50px;
+    display: block;
+    transition: background-color 0.3s;
+}
+
+.menu a:hover {
+    background-color: #a7d60e;
+    text-align: center;
+}
+
+section {
+    padding: 50px;
+ 
+    
+}
+
+#home {
+    background-color: #2a2323;
+     
+}
+
+#services {
+    background-color: #f0eff6;
+ 
+}
+
+#about {
+    background-color: #2e2323;
+  
+}
+
+#contact {
+    background-color: #2a1515;
+    
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #500404;
+}
+
+header, footer {
+    background-color: #f6f3f3;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+main {
+    padding: 20px;
+}
+
+#servicios {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.servicio {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    flex: 1 1 calc(33% - 40px);
+    box-sizing: border-box;
+}
+
+.servicio h2 {
+    margin-top: 0;
+}
+
+.servicio ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.servicio ul li {
+    background: url('check.png') no-repeat left center;
+    padding-left: 20px;
+    margin-bottom: 10px;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #79f53f;
+    color: rgb(124, 6, 6);
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 60%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #c90404;
+    border-radius: 5px;
+}
+
+textarea {
+    resize: vertical; /* Permite redimensionar verticalmente solo */
+}
+
+button[type="submit"] {
+    background-color: #11b58a;
+    color: #fdfffe;
+    padding: 10px 60px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+   width: 400px;
+   display: block; /* Asegúrate de que el botón se comporte como un bloque */
+   margin: 0 auto;
+}
+
+button[type="submit"]:hover {
+    background-color: #991c1c;
+}
+
+.contact-info {
+    margin-top: -180px;
+   
+}
+
+.contact-info p {
+    margin-bottom: 10px;
+}
+
+.social-media {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.social-media a {
+    margin: 0 10px;
+    color: #a82b2b;
+    font-size: 24px;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.social-media a:hover {
+    color: #b90d0d;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #a52222;
+    color: #fff;
+    width: 100%;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #d92c2c;
+    color: #fff;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    background-color: #333;
+    color: #383131;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+}
+
+.social-icon {
+    color: #1b1818;
+    font-size: 24px;
+    margin: 0 10px;
+    transition: color 0.3s;
+}
+
+.social-icon:hover {
+    color: #ffd700; /* Cambiar color al pasar el ratón */
+}
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 20px;
+}
+.navbar img {
+    height: 50px; /* Ajusta el tamaño de la imagen del logo */
+}
+.navbar ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.navbar ul li {
+    margin-left: 20px;
+}
+.navbar ul li a {
+    color: rgb(199, 17, 17);
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+.navbar ul li a:hover {
+    color: #ddd;
+}
+
+
+.h1{
+    text-align: center;
+    align-items: center;
+}
+
+body {
+    background-image: url('imagen99.jpg');
+    background-size: cover; /* Ajusta la imagen para cubrir toda el área */
+    background-attachment: fixed; /* La imagen de fondo no se desplazará al hacer scroll */
+    background-position: center; /* Centra la imagen de fondo */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    position: relative; /* Asegura que el contenido esté posicionado correctamente */
+    z-index: 1; /* Asegura que el contenido esté sobre el fondo */
+    padding: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+ 
